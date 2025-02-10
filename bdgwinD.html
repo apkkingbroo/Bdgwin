@@ -111,6 +111,34 @@
         #resultsButton:active {
             transform: scale(0.9);
         }
+
+        /* Telegram Button */
+        #telegramButton {
+            background: #0088cc;
+            color: white;
+            border: none;
+            padding: 10px 18px;
+            border-radius: 20px;
+            font-size: 16px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: transform 0.2s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 10px;
+            text-decoration: none;
+        }
+
+        #telegramButton img {
+            width: 20px;
+            height: 20px;
+            margin-right: 8px;
+        }
+
+        #telegramButton:active {
+            transform: scale(0.9);
+        }
     </style>
 </head>
 <body>
@@ -130,6 +158,11 @@
 
         <!-- Results Button Inside Dialog -->
         <button id="resultsButton">Results</button>
+
+        <!-- Telegram Button -->
+        <a id="telegramButton" href="https://telegram.me/apkmodderking" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg" alt="Telegram"> Telegram
+        </a>
 
         <p id="footerText">Made by apkmodderking Telegram Channel</p>
     </div>
